@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid #000;
+  font-size: 36px;
+  line-height: 100px;
+  cursor: pointer;
+  user-select: none;
+}
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+h1{
+    color: #f44848;
+    margin-left: 70px;
+    text-align: left; 
+}
